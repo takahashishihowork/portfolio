@@ -462,46 +462,24 @@ a {
 .banner-page {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 80px 20px;
+  padding: 100px 20px;
 }
 
 .banner-page h1 {
   font-size: 48px;
   font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.page-text {
-  font-size: 18px;
-  margin-bottom: 50px;
-  color: #666;
+  margin: 0 0 120px;
 }
 
 .banner-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
+  gap: 60px 40px;
 }
 
 .banner-card {
+  text-align: center;
   background-color: #fff;
-}
-
-.banner-card img {
-  width: 100%;
-  display: block;
-  border: 1px solid #ddd;
-}
-
-.caption {
-  margin-top: 12px;
-  font-size: 14px;
-  color: #666;
-  text-align: center;
-}
-
-.banner-card {
-  text-align: center;
 }
 
 .banner-card img {
@@ -514,20 +492,19 @@ a {
 }
 
 .caption {
-  margin-top: 10px;
+  margin-top: 14px;
   font-size: 13px;
   color: #555;
   line-height: 1.6;
 }
 
 @media screen and (max-width: 768px) {
-
   .banner-page h1 {
     font-size: 32px;
+    margin-bottom: 60px;
   }
 
   .banner-list {
     grid-template-columns: 1fr;
   }
-
 }
